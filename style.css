@@ -1,43 +1,79 @@
-.container {
-    width: 70%;
-    margin: auto;
+body{
+    background-image: url("images/wallpaper.png");
+    transition-property: all;
+    background-color: rgb(12, 189, 62);
+}
+
+.guitar{
     text-align: center;
+    font-size: 5rem;
+  color: #7d3f08;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+.container{
+    text-align: center;
+    font-size: 5 rem;
+    
+}
+.w {
+    font-size: 4 rem;
+    background-image: url("images/tom1.png");
+    text-shadow: 3px 0 #DA0463;
+}
+.a {
+    font-size: 4 rem;
+    background-image: url("images/tom2.png");
+    text-shadow: 3px 0 #f045f9;
   }
   
-  .dice {
-    text-align: center;
+  .s {
+    font-size: 4 rem;
+    background-image: url("images/tom3.png");
+    text-shadow: 3px 0 #c5da04;
+  }
+  
+  .d {
+    font-size: 4 rem;
+    background-image: url("images/tom4.png");
+    text-shadow: 3px 0 #34753d;
+  }
+  
+  .j {
+    font-size: 4 rem;
+    background-image: url("images/snare.png");
+    text-shadow: 3px 0 #0934b5;
+  }
+  .k{
+    font-size: 4 rem;
+    background-image: url("images/crash.png");
+    text-shadow: 3px 0 #03e934;
+  }
+  .l{
+    font-size: 4 rem;
+    background-image: url("images/kick.png");
+    text-shadow: 3px 0 #d9874d;
+  }
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 10 rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
     display: inline-block;
-  
-  }
-  
-  body {
+    width: 150px;
+    height: 150px;
     text-align: center;
-    background-color: #133438;
+    margin: 10px;
+    background-color: white;
+   
   }
   
-  h1 {
-    margin: 30px;
-    font-family: 'Lobster', cursive;
-    text-shadow: 10px 0 #1a5bb1;
-    font-size: 8rem;
-    color: #4ECCA3;
-  }
-  
-  p {
-    font-size: 2rem;
-    color: #4ECCA3;
-    font-family: 'Indie Flower', cursive;
-  }
-  
-  img {
-    width: 80%;
-  }
-  
-  /* footer {
-    margin-top: 5%;
-    color: #EEEEEE;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-  
-  }
-   */
